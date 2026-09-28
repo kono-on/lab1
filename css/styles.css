@@ -1,0 +1,57 @@
+/* changing standard font and setting colours */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+p {
+    color: rgb(200, 200, 200);
+}
+
+.image-text {
+color: white;
+padding: 20px 40px;
+text-align: center;
+}
+
+/* implement parallax effect for images */
+.parallax {
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 80vh;
+}
+
+/* Individual ids for images */
+#cliffs {
+background-image: url("../images/cliff.jpg");
+}
+
+#rock {
+background-image: url("../images/rocks.jpg");
+}
+
+#smoke {
+background-image: url("../images/smoke1.jpg");
+}
+
+#open {
+background-image: url("../images/opening.jpg");
+}
+
+/* arrangement properties for sections in between images */
+.content {
+min-height: 20vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 60px 20px;
+background-color: #000000;
+color: #ffffff;
+}
